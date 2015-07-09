@@ -37,7 +37,9 @@ delete_tags(['global',
             'news',
             'executive',
             'commercial',
-            'operation'])
+            'operation',
+            'board',
+            'technical'])
 
 create_or_update_tag(
     title: "Featured item?",
@@ -124,6 +126,35 @@ add_team_tag("People Dev", "people-dev-team", "People Dev Team")
 add_team_tag("Board", "team-board", "Board Member")
 add_team_tag("Intern", "team-intern", "Intern")
 add_team_tag("Associate", "team-associate", "Associate")
+
+# ---8<--- cut along line ---8<---------------------
+
+# This entire section can be deleted at some point...
+# These are old teams which should no longer be used.
+# Taking them out now causes bad things to happen
+
+add_team_tag("Board (depr.)", "board", "Board Member")
+add_team_tag("Technical Team (depr.)", "technical", "Technical Team")
+
+create_or_update_tag(
+    title: "Executive Team (depr.)",
+    tag_type: "team",
+    tag_id: "executive",
+    description: "Executive Team")
+
+create_or_update_tag(
+    title: "Commercial Team (depr.)",
+    tag_type: "team",
+    tag_id: "commercial",
+    description: "Commercial Team")
+
+create_or_update_tag(
+    title: "Operations Team (depr.)",
+    tag_type: "team",
+    tag_id: "operation",
+    description: "Operations Team")
+
+# ---8<--- cut along line ---8<---------------------
 
 create_or_update_tag(
     title: "Consultation Response",
