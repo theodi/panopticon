@@ -207,49 +207,49 @@ create_or_update_tag(
 create_or_update_tag(
     title: "Lunchtime Lecture",
     tag_type: "event",
-    tag_id: "lunchtime-lecture",
+    tag_id: "event:lunchtime-lecture",
     description: "Lunchtime Lecture")
 
 create_or_update_tag(
     title: "Meetup",
     tag_type: "event",
-    tag_id: "meetup",
+    tag_id: "event:meetup",
     description: "Meetup")
 
-  create_or_update_tag(
+create_or_update_tag(
     title: "Research Afternoon",
     tag_type: "event",
-    tag_id: "research-afternoon",
+    tag_id: "event:research-afternoon",
     description: "Research Afternoon")
 
 create_or_update_tag(
     title: "Open Data Challenge Series",
     tag_type: "event",
-    tag_id: "open-data-challenge-series",
+    tag_id: "event:open-data-challenge-series",
     description: "Open Data Challenge Series")
 
 create_or_update_tag(
     title: "Roundtable",
     tag_type: "event",
-    tag_id: "roundtable",
+    tag_id: "event:roundtable",
     description: "Roundtable")
 
 create_or_update_tag(
     title: "Workshops",
     tag_type: "event",
-    tag_id: "workshop",
+    tag_id: "event:workshop",
     description: "Workshop")
 
 create_or_update_tag(
     title: "Networking Event",
     tag_type: "event",
-    tag_id: "networking-events",
+    tag_id: "event:networking-events",
     description: "Networking Event")
 
 create_or_update_tag(
     title: "Panel Discussion",
     tag_type: "event",
-    tag_id: "panel-discussions",
+    tag_id: "event:panel-discussions",
     description: "Panel Discussion")
 
 create_or_update_tag(
