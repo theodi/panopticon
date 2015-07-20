@@ -28,4 +28,6 @@ Panopticon::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
+  if defined? ENV['DOCKERIZED'] then config.logger = Logger.new(STDOUT) end
+
 end
