@@ -20,7 +20,6 @@ GIT
 
 GEM
   remote: http://rubygems.org/
-  remote: https://BnrJb6FZyzspBboNJzYZ@gem.fury.io/govuk/
   specs:
     PriorityQueue (0.1.2)
     actionmailer (3.2.22)
@@ -132,10 +131,10 @@ GEM
     dotenv-rails (1.0.2)
       dotenv (= 1.0.2)
     erubis (2.7.0)
-    eventmachine (1.0.7)
+    eventmachine (1.0.8)
     exception_notification (2.6.1)
       actionmailer (>= 3.0.4)
-    execjs (2.5.2)
+    execjs (2.6.0)
     factory_girl (3.3.0)
       activesupport (>= 3.0.0)
     factory_girl_rails (3.3.0)
@@ -316,7 +315,7 @@ GEM
     safe_yaml (1.0.4)
     sanitize (2.0.6)
       nokogiri (>= 1.4.4)
-    sass (3.4.16)
+    sass (3.4.17)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -434,3 +433,6 @@ DEPENDENCIES
   turn
   uglifier
   webmock
+
+BUNDLED WITH
+   1.10.5
