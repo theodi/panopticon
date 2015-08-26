@@ -36,6 +36,7 @@ namespace :tags do
   end
 
   task :batch => :environment do
+    desc "Process batch update to tags. args = input file, output file (defaults = data/batch_tags.csv, ./batch_tags.log.csv)"
     logger.level=2
 
     def get_keywords(array, keys)
