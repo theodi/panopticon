@@ -122,7 +122,7 @@ GEM
       nokogiri (~> 1.5)
       rails (>= 3, < 5)
     daemons (1.2.3)
-    database_cleaner (1.5.0)
+    database_cleaner (1.4.1)
     diff-lcs (1.2.5)
     differ (0.1.2)
     domain_name (0.5.24)
@@ -388,7 +388,7 @@ DEPENDENCIES
   colorize (~> 0.5.8)
   compass-rails (= 1.1.2)
   cucumber-rails
-  database_cleaner
+  database_cleaner (~> 1.4.1)
   dotenv-rails (~> 1.0)
   exception_notification (~> 2.6)
   factory_girl (= 3.3.0)
