@@ -352,7 +352,7 @@ GEM
       ansi
       minitest (~> 4)
     tzinfo (0.3.44)
-    uglifier (2.7.1)
+    uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     unf (0.1.4)
@@ -388,7 +388,7 @@ DEPENDENCIES
   colorize (~> 0.5.8)
   compass-rails (= 1.1.2)
   cucumber-rails
-  database_cleaner
+  database_cleaner (~> 1.4.1)
   dotenv-rails (~> 1.0)
   exception_notification (~> 2.6)
   factory_girl (= 3.3.0)
