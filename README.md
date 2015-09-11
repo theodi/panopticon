@@ -1,4 +1,4 @@
-Welcome to Panopticon
+Welcome to Panopticon 
 ===================== 
 
 The GOV.UK content platform has been built with a focus on tools over content.
