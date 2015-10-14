@@ -5,6 +5,9 @@ source 'http://rubygems.org'
 
 gem 'dotenv-rails', '~> 1.0' # Fix to 1.x for rails 3
 
+# Pinning this because we're still on 1.9.3 - can unpin once we get on new cookware
+gem 'rack-cache', '< 1.3.0'
+
 gem 'plek', '1.5.0'
 
 gem 'nested_form', '0.3.2'
@@ -99,3 +102,5 @@ end
 group :import do
   gem 'nokogiri'
 end
+
+gem 'tunnels'
