@@ -50,7 +50,7 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     addressable (2.3.8)
-    airbrake (4.3.1)
+    airbrake (4.3.3)
       builder
       multi_json
     ansi (1.5.0)
@@ -173,6 +173,7 @@ GEM
       mongoid (~> 2.5)
       plek
       state_machine
+    hashdiff (0.2.2)
     hashie (3.4.2)
     hike (1.2.3)
     htmlentities (4.3.4)
@@ -195,7 +196,7 @@ GEM
     language_list (1.1.0)
     launchy (2.4.3)
       addressable (~> 2.3)
-    libv8 (3.16.14.11)
+    libv8 (3.16.14.13)
     link_header (0.0.8)
     lograge (0.1.2)
       actionpack
@@ -269,7 +270,7 @@ GEM
       multi_json (~> 1.0)
       websocket-driver (>= 0.2.0)
     polyglot (0.3.5)
-    pry (0.10.2)
+    pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
@@ -315,7 +316,7 @@ GEM
     safe_yaml (1.0.4)
     sanitize (2.0.6)
       nokogiri (>= 1.4.4)
-    sass (3.4.18)
+    sass (3.4.19)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -362,9 +363,10 @@ GEM
     unf_ext (0.0.7.1)
     warden (1.2.3)
       rack (>= 1.0)
-    webmock (1.21.0)
+    webmock (1.22.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
+      hashdiff
     webrobots (0.1.1)
     websocket-driver (0.6.2)
       websocket-extensions (>= 0.1.0)
