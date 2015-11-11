@@ -173,7 +173,7 @@ GEM
       mongoid (~> 2.5)
       plek
       state_machine
-    hashdiff (0.2.2)
+    hashdiff (0.2.3)
     hashie (3.4.3)
     hike (1.2.3)
     htmlentities (4.3.4)
@@ -368,7 +368,7 @@ GEM
       crack (>= 0.3.2)
       hashdiff
     webrobots (0.1.1)
-    websocket-driver (0.6.2)
+    websocket-driver (0.6.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
     xml-simple (1.1.5)
