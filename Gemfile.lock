@@ -359,7 +359,7 @@ GEM
     turn (0.9.7)
       ansi
       minitest (~> 4)
-    tzinfo (0.3.48)
+    tzinfo (0.3.49)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
@@ -367,7 +367,7 @@ GEM
     unf_ext (0.0.7.2)
     warden (1.2.6)
       rack (>= 1.0)
-    webmock (1.24.2)
+    webmock (1.24.3)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
