@@ -127,7 +127,7 @@ GEM
       nokogiri (~> 1.5)
       railties (>= 3, < 5)
     cucumber-wire (0.0.1)
-    daemons (1.2.3)
+    daemons (1.2.4)
     database_cleaner (1.4.1)
     diff-lcs (1.2.5)
     differ (0.1.2)
@@ -359,7 +359,7 @@ GEM
       ansi
       minitest (~> 4)
     tzinfo (0.3.51)
-    uglifier (3.0.0)
+    uglifier (3.0.1)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
