@@ -214,7 +214,15 @@ class ArtefactsController < ApplicationController
     end
 
     def relatable_items
-      @relatable_items ||= Artefact.relatable_items.to_a
+      @relatable_items ||= Artefact.relatable_items.map do |i|
+        type = begin
+          i.send("#{i.kind}").first.title
+        rescue
+          i.kind
+        end
+        i.name = "#{i.name} (#{type})"
+        i
+      end
     end
 
     def attempting_to_change_owning_app?(parameters_to_use)
