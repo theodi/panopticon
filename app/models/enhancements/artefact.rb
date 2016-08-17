@@ -33,6 +33,18 @@ class Artefact
       .only(:name, :kind, :tag_ids)
   end
 
+  def artefact_type
+    begin
+      self.send("#{self.kind}").first.title
+    rescue
+      self.kind
+    end
+  end
+
+  def select_title
+    @select_title ||= "#{name} (#{artefact_type})"
+  end
+
   def need_id_editable?
     # allow the Need ID to be edited if:
     # - it's a new record
