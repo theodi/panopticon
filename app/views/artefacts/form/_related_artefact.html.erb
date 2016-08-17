@@ -3,7 +3,7 @@
 
   <%= select_tag "artefact[related_artefact_ids][]",
                  options_from_collection_for_select(relatable_items, :id, :name, related_artefact_id),
-                 { prompt: "Select a related item" } %>
+                 { prompt: "Select a related item", class: 'chzn-select' } %>
 
   <button class="remove-row remove-related" type="button">Remove related item</button>
 </div>
