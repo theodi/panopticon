@@ -27,6 +27,12 @@ class Artefact
 
   MASLOW_NEED_ID_LOWER_BOUND = 100000
 
+  def self.relatable_items
+  self.in_alphabetical_order
+      .where(:kind.ne => "completed_transaction", :state.ne => "archived")
+      .only(:name, :kind, :tag_ids)
+  end
+
   def need_id_editable?
     # allow the Need ID to be edited if:
     # - it's a new record
