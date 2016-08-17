@@ -43,6 +43,7 @@ $(function() {
     new_select.removeClass('related-artefact-template');
     new_select.addClass('related-artefact');
     new_select.appendTo('.related-artefact-group');
+    new_select.find('select').chosen();
     return false;
   })
 
