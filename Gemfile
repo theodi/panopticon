@@ -17,7 +17,6 @@ gem 'gelf'
 gem 'null_logger'
 
 gem 'exception_notification', '~> 2.6'
-gem 'airbrake', '~> 4.3.4'
 
 gem 'gds-api-adapters', :github => 'theodi/gds-api-adapters'
 
@@ -106,4 +105,5 @@ gem 'tunnels'
 
 group :production do
   gem "rails_12factor"
+  gem 'airbrake', '~> 4.3.4'
 end
