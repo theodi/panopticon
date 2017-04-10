@@ -103,3 +103,7 @@ group :import do
 end
 
 gem 'tunnels'
+
+group :production do
+  gem "rails_12factor"
+end
