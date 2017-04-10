@@ -4,13 +4,14 @@ sudo: false
 git:
   depth: 10
 rvm:
-- 1.9.3
+  - 1.9.3
 services:
   - mongodb
 env:
   global:
   - GOVUK_APP_DOMAIN: dev.gov.uk
   - DEV_DOMAIN: dev.gov.uk
+  - GOVUK_WEBSITE_ROOT: http://dev.gov.uk
   - PANOPTICON_USER: user
   - PANOPTICON_PASSWORD: password
   - PANOPTICON_OAUTH_ID: fdsjklfds
