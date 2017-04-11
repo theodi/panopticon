@@ -9,9 +9,9 @@ services:
   - mongodb
 env:
   global:
-  - GOVUK_APP_DOMAIN: dev.gov.uk
-  - DEV_DOMAIN: dev.gov.uk
-  - GOVUK_WEBSITE_ROOT: http://dev.gov.uk
+  - GOVUK_APP_DOMAIN: dev
+  - DEV_DOMAIN: dev
+  - GOVUK_WEBSITE_ROOT: http://www.dev
   - PANOPTICON_USER: user
   - PANOPTICON_PASSWORD: password
   - PANOPTICON_OAUTH_ID: fdsjklfds
