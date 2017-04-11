@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
 
-#ruby=ruby-1.9.3
-#ruby-gemset=quirkafleeg-panopticon
+ruby "1.9.3"
 
 gem 'dotenv-rails', '~> 1.0' # Fix to 1.x for rails 3
 
@@ -18,7 +17,6 @@ gem 'gelf'
 gem 'null_logger'
 
 gem 'exception_notification', '~> 2.6'
-gem 'airbrake', '~> 4.3.4'
 
 gem 'gds-api-adapters', :github => 'theodi/gds-api-adapters'
 
@@ -104,3 +102,8 @@ group :import do
 end
 
 gem 'tunnels'
+
+group :production do
+  gem "rails_12factor"
+  gem 'airbrake', '~> 4.3.4'
+end
