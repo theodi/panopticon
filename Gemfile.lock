@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi_content_models.git
-  revision: cd7be8c66c3930f38682e5576b23472b307ed471
+  revision: 55817d5b4a12bf1dd9d3fc6f25c2aa1a63e03aea
   specs:
     odi_content_models (0.0.1)
       govuk_content_models (= 6.1.0)
@@ -161,7 +161,7 @@ GEM
       rack-accept (~> 0.4.4)
       rails (>= 3.0.0)
       warden (~> 1.2)
-    gelf (2.0.0)
+    gelf (3.0.0)
       json
     gherkin (4.0.0)
     govspeak (1.6.2)
@@ -220,7 +220,7 @@ GEM
       nokogiri (~> 1.4)
       ntlm-http (~> 0.1, >= 0.1.1)
       webrobots (>= 0.0.9, < 0.2)
-    memoist (0.14.0)
+    memoist (0.15.0)
     metaclass (0.0.4)
     method_source (0.8.2)
     mime-types (1.25.1)
@@ -364,7 +364,7 @@ GEM
       ansi
       minitest (~> 4)
     tzinfo (0.3.51)
-    uglifier (3.0.1)
+    uglifier (3.0.2)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
