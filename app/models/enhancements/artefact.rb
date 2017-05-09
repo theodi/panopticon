@@ -28,14 +28,14 @@ class Artefact
   MASLOW_NEED_ID_LOWER_BOUND = 100000
 
   def self.relatable_items
-  self.in_alphabetical_order
+    self.in_alphabetical_order
       .where(:kind.ne => "completed_transaction", :state.ne => "archived")
       .only(:name, :kind, :tag_ids)
   end
 
   def artefact_type
     begin
-      self.send("#{self.kind}").first.title
+      tag_ids.reject{|x| x=="odi"}.join(",")
     rescue
       self.kind
     end
