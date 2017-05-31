@@ -235,7 +235,7 @@ GEM
       tzinfo (~> 0.3.22)
     mongoid-tree (0.7.0)
       mongoid (~> 2.0)
-    mongoid_rails_migrations (1.0.0)
+    mongoid_rails_migrations (1.0.1)
       activesupport (>= 3.2.0)
       bundler (>= 1.0.0)
       rails (>= 3.2.0)
@@ -424,7 +424,7 @@ DEPENDENCIES
   mongo (= 1.7.1)
   mongoid (~> 2.5)
   mongoid-tree
-  mongoid_rails_migrations (= 1.0.0)
+  mongoid_rails_migrations (= 1.0.1)
   nested_form (= 0.3.2)
   nokogiri
   null_logger
