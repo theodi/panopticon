@@ -93,7 +93,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
-    colorize (0.5.8)
+    colorize (0.8.1)
     compass (1.0.3)
       chunky_png (~> 1.2)
       compass-core (~> 1.0.2)
@@ -397,7 +397,7 @@ DEPENDENCIES
   capybara-mechanize
   chosen-rails (= 1.0.2)
   ci_reporter
-  colorize (~> 0.5.8)
+  colorize (~> 0.8.1)
   compass-rails (= 1.1.2)
   cucumber-rails
   database_cleaner (~> 1.4.1)

@@ -26,7 +26,7 @@ gem 'rails', '~> 3.2.16'
 gem 'foreman', '< 0.65.0'
 gem 'thin'
 
-gem 'colorize', '~> 0.5.8'
+gem 'colorize', '~> 0.8.1'
 gem 'rummageable', "1.0.1"
 
 gem "mongoid", "~> 2.5"
