@@ -198,7 +198,7 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     kramdown (0.13.8)
-    language_list (1.1.0)
+    language_list (1.2.1)
     launchy (2.4.3)
       addressable (~> 2.3)
     libv8 (3.16.14.15)
