@@ -139,8 +139,9 @@ GEM
       railties (>= 3.2, < 5.2)
     erubis (2.7.0)
     eventmachine (1.2.0.1)
-    exception_notification (2.6.1)
+    exception_notification (4.1.1)
       actionmailer (>= 3.0.4)
+      activesupport (>= 3.0.4)
     execjs (2.7.0)
     factory_girl (3.3.0)
       activesupport (>= 3.0.0)
@@ -403,7 +404,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner (~> 1.4.1)
   dotenv-rails (~> 2.2)
-  exception_notification (~> 2.6)
+  exception_notification (~> 4.1)
   factory_girl (= 3.3.0)
   factory_girl_rails
   foreman (< 0.65.0)

@@ -16,7 +16,7 @@ gem 'ansi'
 gem 'gelf'
 gem 'null_logger'
 
-gem 'exception_notification', '~> 2.6'
+gem 'exception_notification', '~> 4.1'
 
 gem 'gds-api-adapters', :github => 'theodi/gds-api-adapters'
 
