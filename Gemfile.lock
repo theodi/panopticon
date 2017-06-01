@@ -133,9 +133,10 @@ GEM
     differ (0.1.2)
     domain_name (0.5.20160615)
       unf (>= 0.0.5, < 1.0.0)
-    dotenv (1.0.2)
-    dotenv-rails (1.0.2)
-      dotenv (= 1.0.2)
+    dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     erubis (2.7.0)
     eventmachine (1.2.0.1)
     exception_notification (2.6.1)
@@ -401,7 +402,7 @@ DEPENDENCIES
   compass-rails (= 1.1.2)
   cucumber-rails
   database_cleaner (~> 1.4.1)
-  dotenv-rails (~> 1.0)
+  dotenv-rails (~> 2.2)
   exception_notification (~> 2.6)
   factory_girl (= 3.3.0)
   factory_girl_rails
