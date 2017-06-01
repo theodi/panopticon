@@ -220,7 +220,7 @@ GEM
       nokogiri (~> 1.4)
       ntlm-http (~> 0.1, >= 0.1.1)
       webrobots (>= 0.0.9, < 0.2)
-    memoist (0.14.0)
+    memoist (0.15.0)
     metaclass (0.0.4)
     method_source (0.8.2)
     mime-types (1.25.1)
