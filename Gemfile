@@ -35,7 +35,7 @@ gem "mongo", "1.7.1"
 gem "kaminari", "0.14.1"
 gem "bson_ext", "1.7.1"
 gem "bson", "1.7.1"
-gem 'lograge', '~> 0.1.0'
+gem 'lograge', '~> 0.3.6'
 
 gem 'language_list'
 
