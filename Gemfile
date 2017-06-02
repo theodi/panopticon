@@ -16,11 +16,8 @@ gem 'ansi'
 gem 'gelf'
 gem 'null_logger'
 
-gem 'exception_notification', '~> 4.1'
-
 gem 'gds-api-adapters', :github => 'theodi/gds-api-adapters'
 
-gem 'aws-ses', require: 'aws/ses'
 
 gem 'rails', '~> 3.2.22'
 gem 'foreman', '< 0.84.0'
