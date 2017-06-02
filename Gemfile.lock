@@ -55,8 +55,11 @@ GEM
       multi_json
     ansi (1.5.0)
     arel (3.0.3)
-    bootstrap-sass (2.3.2.2)
-      sass (~> 3.2)
+    autoprefixer-rails (7.1.1)
+      execjs
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     bson (1.7.1)
     bson_ext (1.7.1)
       bson (~> 1.7.1)
@@ -319,7 +322,7 @@ GEM
     safe_yaml (1.0.4)
     sanitize (2.0.6)
       nokogiri (>= 1.4.4)
-    sass (3.4.22)
+    sass (3.4.24)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -382,7 +385,7 @@ PLATFORMS
 DEPENDENCIES
   airbrake (~> 4.3.4)
   ansi
-  bootstrap-sass (= 2.3.2.2)
+  bootstrap-sass (= 3.3.7)
   bson (= 1.7.1)
   bson_ext (= 1.7.1)
   capybara
