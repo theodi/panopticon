@@ -57,7 +57,7 @@ else
 end
 
 gem 'formtastic', '2.3.1'
-gem 'formtastic-bootstrap', '2.1.3'
+gem 'formtastic-bootstrap', '3.0.0'
 
 gem 'bootstrap-sass', '2.3.2.2'
 
