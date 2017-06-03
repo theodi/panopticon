@@ -88,7 +88,7 @@ group :test do
   gem 'capybara'
   gem 'capybara-mechanize'
   gem 'launchy'
-  gem 'mocha', '0.13.3', :require => false
+  gem 'mocha', '1.2.1', :require => false
   gem 'webmock', require: false
   gem 'poltergeist', '~> 1.5'
   gem 'pry'
