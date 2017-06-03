@@ -82,7 +82,7 @@ group :test do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner', "~> 1.4.1"
   gem 'minitest'
-  gem "shoulda", "~> 2.11.3"
+  gem "shoulda", "~> 3.5.0"
   gem 'factory_girl', "3.3.0"
   gem 'factory_girl_rails'
   gem 'capybara'
