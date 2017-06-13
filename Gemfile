@@ -102,5 +102,5 @@ gem 'tunnels'
 
 group :production do
   gem "rails_12factor"
-  gem 'airbrake', '~> 4.3.4'
+  gem 'airbrake', '~> 6.1.1'
 end
