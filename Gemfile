@@ -63,7 +63,7 @@ gem 'jquery-ui-rails', '3.0.1'
 gem 'chosen-rails', '1.0.2'
 
 group :assets do
-  gem "therubyracer", "~> 0.12.0"
+  gem "therubyracer", "~> 0.12.3"
   gem 'sass-rails', '3.2.6'
   gem 'compass-rails', '1.1.2'
   gem 'uglifier'
