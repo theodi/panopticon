@@ -76,7 +76,7 @@ end
 group :test do
   # Pretty printed test output
   gem 'turn', require: false
-  gem 'simplecov', '~> 0.6.4'
+  gem 'simplecov', '~> 0.14.1'
   gem 'simplecov-rcov'
   gem 'ci_reporter'
   gem 'cucumber-rails', require: false
