@@ -60,10 +60,10 @@ gem 'bootstrap-sass', '2.3.2.2'
 
 gem 'jquery-rails', '2.0.2'
 gem 'jquery-ui-rails', '3.0.1'
-gem 'chosen-rails', '1.0.2'
+gem 'chosen-rails', '1.5.2'
 
 group :assets do
-  gem "therubyracer", "~> 0.12.0"
+  gem "therubyracer", "~> 0.12.3"
   gem 'sass-rails', '3.2.6'
   gem 'compass-rails', '1.1.2'
   gem 'uglifier'
@@ -76,19 +76,19 @@ end
 group :test do
   # Pretty printed test output
   gem 'turn', require: false
-  gem 'simplecov', '~> 0.6.4'
+  gem 'simplecov', '~> 0.14.1'
   gem 'simplecov-rcov'
   gem 'ci_reporter'
   gem 'cucumber-rails', require: false
   gem 'database_cleaner', "~> 1.4.1"
   gem 'minitest'
-  gem "shoulda", "~> 2.11.3"
+  gem "shoulda", "~> 3.5.0"
   gem 'factory_girl', "3.3.0"
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'capybara-mechanize'
   gem 'launchy'
-  gem 'mocha', '0.13.3', :require => false
+  gem 'mocha', '1.2.1', :require => false
   gem 'webmock', require: false
   gem 'poltergeist', '~> 1.5'
   gem 'pry'
