@@ -171,7 +171,7 @@ GEM
       mongoid (~> 2.5)
       plek
       state_machine
-    hashdiff (0.3.0)
+    hashdiff (0.3.4)
     hashie (3.4.4)
     hike (1.2.3)
     htmlentities (4.3.4)
@@ -371,7 +371,7 @@ GEM
     unf_ext (0.0.7.2)
     warden (1.2.6)
       rack (>= 1.0)
-    webmock (2.1.0)
+    webmock (2.3.2)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
