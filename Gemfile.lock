@@ -49,7 +49,8 @@ GEM
     activesupport (3.2.22.5)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    addressable (2.4.0)
+    addressable (2.5.1)
+      public_suffix (~> 2.0, >= 2.0.2)
     airbrake (4.3.8)
       builder
       multi_json
@@ -61,7 +62,7 @@ GEM
     bson_ext (1.7.1)
       bson (~> 1.7.1)
     builder (3.0.4)
-    capybara (2.8.0)
+    capybara (2.14.0)
       addressable
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -263,7 +264,7 @@ GEM
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
     plek (2.0.0)
-    poltergeist (1.10.0)
+    poltergeist (1.15.0)
       capybara (~> 2.1)
       cliver (~> 0.3.1)
       websocket-driver (>= 0.2.0)
@@ -272,6 +273,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    public_suffix (2.0.5)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.4.7)
@@ -376,10 +378,10 @@ GEM
       crack (>= 0.3.2)
       hashdiff
     webrobots (0.1.2)
-    websocket-driver (0.6.4)
+    websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
-    xpath (2.0.0)
+    xpath (2.1.0)
       nokogiri (~> 1.3)
 
 PLATFORMS
@@ -427,7 +429,7 @@ DEPENDENCIES
   null_logger
   odi_content_models!
   plek (= 2.0.0)
-  poltergeist (~> 1.5)
+  poltergeist (~> 1.15)
   pry
   quiet_assets
   rack-cache (< 1.7.0)
