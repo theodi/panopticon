@@ -90,7 +90,7 @@ group :test do
   gem 'launchy'
   gem 'mocha', '1.2.1', :require => false
   gem 'webmock', require: false
-  gem 'poltergeist', '~> 1.5'
+  gem 'poltergeist', '~> 1.16'
   gem 'pry'
 end
 
