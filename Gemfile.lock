@@ -331,11 +331,11 @@ GEM
     shoulda-context (1.2.2)
     shoulda-matchers (2.8.0)
       activesupport (>= 3.0.0)
-    simplecov (0.14.1)
+    simplecov (0.15.0)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.1)
+    simplecov-html (0.10.2)
     simplecov-rcov (0.2.3)
       simplecov (>= 0.4.1)
     slop (3.6.0)
@@ -437,7 +437,7 @@ DEPENDENCIES
   rummageable (= 1.0.1)
   sass-rails (= 3.2.6)
   shoulda (~> 3.5.0)
-  simplecov (~> 0.14.1)
+  simplecov (~> 0.15.0)
   simplecov-rcov
   tagmanager-rails
   therubyracer (~> 0.12.3)
