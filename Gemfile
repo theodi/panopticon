@@ -56,7 +56,7 @@ end
 gem 'formtastic', '2.3.1'
 gem 'formtastic-bootstrap', '2.1.3'
 
-gem 'bootstrap-sass', '2.3.2.2'
+gem 'bootstrap-sass', '3.3.7'
 
 gem 'jquery-rails', '2.0.2'
 gem 'jquery-ui-rails', '3.0.1'
