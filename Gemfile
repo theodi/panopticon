@@ -59,7 +59,7 @@ gem 'formtastic-bootstrap', '2.1.3'
 gem 'bootstrap-sass', '2.3.2.2'
 
 gem 'jquery-rails', '2.0.2'
-gem 'jquery-ui-rails', '3.0.1'
+gem 'jquery-ui-rails', '6.0.1'
 gem 'chosen-rails', '1.5.2'
 
 group :assets do
