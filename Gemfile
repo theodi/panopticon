@@ -24,7 +24,7 @@ gem 'foreman', '< 0.84.0'
 gem 'thin'
 
 gem 'colorize', '~> 0.8.1'
-gem 'rummageable', "1.0.1"
+gem 'rummageable', "1.2.1"
 
 gem "mongoid", "~> 2.5"
 gem "mongoid_rails_migrations", "1.0.1"
