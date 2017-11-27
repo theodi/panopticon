@@ -83,7 +83,7 @@ group :test do
   gem 'database_cleaner', "~> 1.4.1"
   gem 'minitest'
   gem "shoulda", "~> 3.5.0"
-  gem 'factory_girl', "3.3.0"
+  gem 'factory_girl', "4.9.0"
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'capybara-mechanize'
