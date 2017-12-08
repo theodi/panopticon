@@ -28,10 +28,10 @@ gem 'rummageable', "1.0.1"
 
 gem "mongoid", "~> 2.5"
 gem "mongoid_rails_migrations", "1.0.1"
-gem "mongo", "1.7.1"
+gem "mongo", "1.12.5"
 gem "kaminari", "0.14.1"
-gem "bson_ext", "1.7.1"
-gem "bson", "1.7.1"
+gem "bson_ext", "1.12.5"
+gem "bson", "1.12.5"
 gem 'lograge', '~> 0.3.6'
 
 gem 'language_list'
