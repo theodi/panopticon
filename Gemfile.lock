@@ -171,7 +171,7 @@ GEM
       mongoid (~> 2.5)
       plek
       state_machine
-    hashdiff (0.3.4)
+    hashdiff (0.3.7)
     hashie (3.4.4)
     hike (1.2.3)
     htmlentities (4.3.4)
