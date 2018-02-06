@@ -7,7 +7,7 @@ gem 'dotenv-rails', '~> 2.2' # Fix to 1.x for rails 3
 # Pinning this because we're still on 1.9.3 - can unpin once we get on new cookware
 gem 'rack-cache', '< 1.7.0'
 
-gem 'plek', '2.0.0'
+gem 'plek', '2.1.1'
 
 gem 'nested_form', '0.3.2'
 gem 'tagmanager-rails'
