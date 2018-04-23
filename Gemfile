@@ -80,7 +80,7 @@ group :test do
   gem 'simplecov-rcov'
   gem 'ci_reporter'
   gem 'cucumber-rails', require: false
-  gem 'database_cleaner', "~> 1.4.1"
+  gem 'database_cleaner', "~> 1.7.0"
   gem 'minitest'
   gem "shoulda", "~> 3.5.0"
   gem 'factory_girl', "3.3.0"
